@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <style>
  body {
@@ -16,6 +17,11 @@
   font-family: "Noto Serif", serif;
   font-size: 42px;
   text-align: center;
+  background-color: #E37A4D;
+  margin: 20px;
+  width: 500px;
+  border: 3px solid black;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
  }
  .contact{
   font-family: "Noto Serif", serif;
@@ -29,6 +35,24 @@
  address{
   font-style: normal;
  }
+ 
+ .btn {
+  background-color: #E37A4D;
+  border: 1px solid black;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #96563B;
+}
+
+#box-container {
+    display: flex;
+    flex-direction: row;
+}
 </style>
 
 <head>
@@ -40,22 +64,23 @@
  
   <p class="intro">Hey there, I'm Joe. I'm a computer science student at the University
   of Manitoba, working towards a second degree.<br>This page is an ongoing work in progress, hampered only by my ability
-  to learn HTML and CSS well enough.<br>While you're here, you can <a href="aboutme.html">learn more about me</a>, connect with me on 
-  <a target="_blank" href="https://www.linkedin.com/in/joseph-gonzales-bb0525169/">LinkedIn</a>, or
-  view my personal projects on <a target="_blank" href="https://github.com/Jogofosho">GitHub</a>.<br>
+  to learn HTML and CSS well enough.
   </p>
   
   <p class="intro">Thanks for stopping by!</p>
   
+  <div id="box-container">
+   <a target="_blank" href="aboutme.html"><button class="btn"><i class="fa-solid fa-user"></i> About Me</button></a>
+   <a target="_blank" href="https://www.linkedin.com/in/joseph-gonzales-bb0525169/"><button class="btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
+   <a target="_blank" href="https://github.com/Jogofosho"><button class="btn"><i class="fa-brands fa-github"></i> GitHub</button></a>
+   <a href="mailto:joegonzalesw6@gmail.com"><button class="btn"><i class="fa-solid fa-envelope"></i> Contact</button></a>
+  </div>
   <div>
    <a target="_blank" href="https://www.codewars.com/users/Jogofosho/completed">
     <img src="https://www.codewars.com/users/Jogofosho/badges/small" alt="codewars badge small" />
    </a><br>
   </div>
   
-  <address class="contact">
-   <a href="mailto:joegonzalesw6@gmail.com">Contact</a> 
-  </address>
  
 </body>
 
