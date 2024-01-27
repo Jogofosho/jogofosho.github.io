@@ -9,12 +9,12 @@ const ResumePage = () => {
     <div className="resume-page-main-container">
       <EmailTitleCard title="Joseph Gonzales' Resume" email="gonzal15@myumanitoba.ca"/>
       <div className="resume-page-card-container">
-        <h3>TESTTTTTTTTTT</h3>
-        {ResumeData.cardData.map((data, index) => (
+        <h2><u>Education</u></h2>
+        {ResumeData.educationData.map((data, index) => (
           <ResumePageCard key={index} index={index} content={data}/>
         ))}
-        <h3>TESTTTTTTTTTT</h3>
-        {ResumeData.cardData.map((data, index) => (
+        <h2><u>Technical Skills</u></h2>
+        {ResumeData.technicalSkillsData.map((data, index) => (
           <ResumePageCard key={index} index={index} content={data}/>
         ))}
       </div>

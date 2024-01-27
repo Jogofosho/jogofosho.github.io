@@ -20,7 +20,7 @@ const ResumePageCard = ({ title, content, index }) => {
         <div key={index} className="section-entry">
           <h3>{content.mainTitle}</h3>
           <p className="location">{content.location}</p>
-          <p className="dates">{content.startDate} - {content.endDate}</p>
+          <p className="dates">{content.startDate}{content.endDate}</p>
           <ul className="extra-section-info">
             {content.extraInfo.map((point, i) => (
               <div key={i} className="bullet-point">&#8226; {point}</div>

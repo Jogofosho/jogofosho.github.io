@@ -1,3 +1,7 @@
+body {
+  margin: 0; /* Reset default margin to prevent horizontal scrolling */
+}
+
 .resume-page-card {
   width: 100%;
   border: 1px solid #0c650c;
