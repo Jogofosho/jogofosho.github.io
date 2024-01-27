@@ -17,6 +17,10 @@ const ResumePage = () => {
         {ResumeData.technicalSkillsData.map((data, index) => (
           <ResumePageCard key={index} index={index} content={data}/>
         ))}
+        <h2><u>Work Experience</u></h2>
+        {ResumeData.workExperienceData.map((data, index) => (
+          <ResumePageCard key={index} index={index} content={data}/>
+        ))}
       </div>
     </div>
   );
