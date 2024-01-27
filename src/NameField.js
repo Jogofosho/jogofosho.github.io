@@ -1,4 +1,5 @@
 import React from 'react';
+import './NameField.css';
 
 const NameField = ({ name }) => {
   return (

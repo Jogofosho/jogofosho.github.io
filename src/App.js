@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <CardComponent>
         <NameField name="Joseph Gonzales" />
+        
       </CardComponent>
     </div>
   );
