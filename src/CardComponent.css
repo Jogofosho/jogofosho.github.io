@@ -1,0 +1,21 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #00cc00; /* Green border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* Set initial opacity to 0 for a fade-in effect */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .card.active {
+    opacity: 1;
+  }
