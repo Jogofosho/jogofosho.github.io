@@ -1,5 +1,5 @@
 .resume-page-card {
-  width: 300px;
+  width: 100%;
   border: 1px solid #0c650c;
   border-radius: 15px;
   padding: 10px;
@@ -14,4 +14,35 @@
 .resume-page-card.fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+.education {
+  margin-bottom: 20px;
+}
+
+.section-entry {
+  margin-bottom: 15px;
+}
+
+.location {
+  font-style: italic;
+}
+
+.dates {
+  font-weight: bold;
+}
+
+.extra-section-info {
+  list-style-type: disc; /* Use disc bullets */
+  margin-top: 0;
+}
+
+.bullet-point {
+  margin-left: 10px; /* Add indentation to the bullet points */
+}
+
+@media screen and (min-width: 768px) {
+  .resume-page-card {
+    width: 45%; /* Adjust the width for desktop screens */
+  }
 }

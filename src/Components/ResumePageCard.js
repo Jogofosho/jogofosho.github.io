@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ResumePageCard.css';
 
-const ResumePageCard = ({ location, title, content, index }) => {
+const ResumePageCard = ({ title, content, index }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -16,9 +16,17 @@ const ResumePageCard = ({ location, title, content, index }) => {
 
   return (
     <div className={`resume-page-card ${isVisible ? 'fade-in' : ''}`}>
-      <h3>{title}</h3>
-      <p>{location}</p>
-      <p>{content}</p>
+      <h2>{title}</h2>
+        <div key={index} className="section-entry">
+          <h3>{content.mainTitle}</h3>
+          <p className="location">{content.location}</p>
+          <p className="dates">{content.startDate} - {content.endDate}</p>
+          <ul className="extra-section-info">
+            {content.extraInfo.map((point, i) => (
+              <div key={i} className="bullet-point">&#8226; {point}</div>
+            ))}
+          </ul>
+        </div>
     </div>
   );
 };

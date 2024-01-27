@@ -7,7 +7,7 @@ const HomePage = () => {
 	return (
 		<div className="App">
 			<HomePageCard>
-				<NameField name="Joseph Gonzales" />
+				<NameField name="Joseph Gonzales (B.A. Hons.)" />
 				<p>
 					Hello! You can call me Joe if you'd like.
 				</p>
