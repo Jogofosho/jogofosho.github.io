@@ -1,0 +1,16 @@
+.resume-page-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh; /* Adjust as needed */
+}
+
+.resume-page-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh; /* Adjust the max-height based on your design */
+  overflow-y: auto;
+  width: 100%; /* Ensure the container takes the full width */
+  box-sizing: border-box;
+}

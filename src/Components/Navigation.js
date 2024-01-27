@@ -7,6 +7,9 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
+          <Link to="/resume">Resume</Link>
+        </li>
+        <li>
 					<Link to="https://www.linkedin.com/in/joseph-gonzales-bb0525169/" target="_blank">LinkedIn</Link>
         </li>
 				<li>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './CardComponent.css'; // Styles for the card
+import './HomePageCard.css'; // Styles for the card
 
-const CardComponent = ({ children }) => {
+const HomePageCard = ({ children }) => {
 	const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
@@ -15,10 +15,10 @@ const CardComponent = ({ children }) => {
   }, []);
 
   return (
-    <div className={`card ${isActive ? 'active' : ''}`}>
+    <div className={`home-page-card ${isActive ? 'active' : ''}`}>
       {children}
     </div>
   );
 };
 
-export default CardComponent;
+export default HomePageCard;
