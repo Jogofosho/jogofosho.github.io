@@ -5,6 +5,10 @@
     border: 5px solid #0c650c; /* Green border color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    justify-content: space-evenly;
+
+    margin: 0 auto;
+    z-index: 1;
 
     transform: translateY(-50%) translateX(-50%);
     position: absolute;

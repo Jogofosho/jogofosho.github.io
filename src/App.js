@@ -1,15 +1,20 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import NameField from './NameField'
 import CardComponent from './CardComponent';
+import Navigation from './Navigation';
 
 function App() {
   return (
-    <div className="App">
-      <CardComponent>
-        <NameField name="Joseph Gonzales" />
-        
-      </CardComponent>
-    </div>
+    <Router>
+      <div className="App">
+        <CardComponent>
+          <NameField name="Joseph Gonzales" />
+          <Navigation />
+        </CardComponent>
+      </div>
+    </Router>
   );
 }
 
