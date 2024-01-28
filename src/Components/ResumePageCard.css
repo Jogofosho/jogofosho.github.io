@@ -42,7 +42,8 @@ body {
 }
 
 .bullet-point {
-  margin-left: 10px; /* Add indentation to the bullet points */
+  margin-left: 5px; /* Add indentation to the bullet points */
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
