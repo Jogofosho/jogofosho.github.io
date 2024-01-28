@@ -2,7 +2,7 @@ export const educationData = [
   {
     mainTitle: 'Bachelor of Science, Computer Science Major (Co-op Option)',
     location: 'University of Manitoba',
-    startDate: 'January 2020 to ',
+    startDate: 'January 2021 to ',
     endDate: 'February 2025',
     extraInfo: [
       'Attained a grade of A+ in basic statistical analysis and object-oriented programming',
