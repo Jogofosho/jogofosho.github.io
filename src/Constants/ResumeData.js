@@ -54,6 +54,15 @@ export const technicalSkillsData = [
 
 export const workExperienceData = [
   {
+    mainTitle: 'Software Developer Co-op, Payworks Payroll Services Canada',
+    location: 'Winnipeg, MB',
+    startDate: 'May 2024 to ',
+    endDate: 'August 2024',
+    extraInfo: [
+      'Contributed to an ongoing plan to implement a new Single Sign-On (SSO) feature and web application for Payworks\' clients. Worked on developing new user interface components, fixing bugs and applying qualify-of-life fixes as per project management feedback. Developed a new backend service to impose a rate limit on one-time two-factor authentication codes. Helped maintain older code for services still in use linked with newer, modernized interfaces and services. As part of an ongoing initiative, wrote new unit test suites for various backend services to improve testing code coverage as well as to ensure reliability and maintainability as the company continues to grow in scale. Demonstrated various features that were implemented in two different sprints to the entire development team at bi-weekly sprint reviews.'
+    ]
+  },
+  {
     mainTitle: 'Co-op Software Developer, Priceline Partner Services - Private Label ',
     location: 'Winnipeg, MB',
     startDate: 'September 2023 to ',
