@@ -27,20 +27,20 @@ export const technicalSkillsData = [
     mainTitle: 'Programming Languages',
     extraInfo: [
       'Java, C, and C++: experience gained through coursework.',
-      'Visual Basic for Applications, JavaScript, Typescript, PostgreSQL: experience gained through co-op work.',
+      'Visual Basic for Applications, JavaScript, Typescript, PostgreSQL, C#: experience gained through co-op work.',
       'Basic understanding of Python, HTML, CSS, and Vue: experience gained through online courses and tutorials.'
     ]
   },
   {
     mainTitle: 'Libraries and Frameworks',
     extraInfo: [
-      'Node.js, React.js, Express.js, Remix, Jest.js.'
+      'Node.js, React.js, Vue.js, Express.js, Remix, Jest.js, Moq, .NET Core.'
     ]
   },
   {
     mainTitle: 'Tools',
     extraInfo: [
-      'Harness, Splunk, LaunchDarkly.'
+      'Harness, Splunk, LaunchDarkly, Jira.'
     ]
   },
   {
