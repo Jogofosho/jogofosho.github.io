@@ -7,7 +7,7 @@ import * as ResumeData from '../Constants/ResumeData.js'
 const ResumePage = () => {
   return (
     <div className="resume-page-main-container">
-      <EmailTitleCard title="Joseph Gonzales' Resume" email="gonzal15@myumanitoba.ca"/>
+      <EmailTitleCard title="Joseph Gonzales' Resume" email="joegonzalesw6@gmail.com"/>
       <div className="resume-page-card-container">
         <h2><u>Education</u></h2>
         {ResumeData.educationData.map((data, index) => (
