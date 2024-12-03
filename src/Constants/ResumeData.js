@@ -3,10 +3,11 @@ export const educationData = [
     mainTitle: 'Bachelor of Science, Computer Science Major (Co-op Option)',
     location: 'University of Manitoba',
     startDate: 'January 2021 to ',
-    endDate: 'February 2025',
+    endDate: 'April 2025',
     extraInfo: [
-      'Attained a grade of A+ in basic statistical analysis and object-oriented programming',
-      'Notable courses completed: Data Structures and Algorithms, Human-Computer Interaction 1, Databases: Concepts and Usage, Technical Communication in Computer Science, Software Engineering I.'
+      'Attained a grade of A+ in Basic Statistical Analysis 1, Object Orientation, and Professional Practice in Computer Science.',
+      'Notable courses completed: Human-Computer Interaction 1, Technical Communication in Computer Science, Software Engineering I, Computer Organization, Operating Systems, Databases: Concepts and Usage.',
+      'Currently completing: Introduction to Artificial Intelligence, Parallel Programming for GPUs.'
     ],
   },
   {
@@ -16,8 +17,8 @@ export const educationData = [
     endDate: 'June 2019',
     extraInfo: [
       'Achieved placement on the Dean\'s Honour list in Fall 2015 and from 2017 to 2019.',
-      'Engaged in courses involving various topics, including: the ethics of promise breaking, the philosophy of language, the metaphysics of human free will. ',
-      'Wrote 2-3 long-form (1500-3000 words) philosophical essays to be evaluated for each course, communicating arguments and possible counterarguments for certain ideas.'
+      'Wrote 2-3 long-form (1500-3000 words) philosophical essays to be evaluated for each course, communicating arguments and possible counterarguments for certain ideas.',
+      'Conducted textual analysis of philosophical works, exploring word usage and historical context to interpret meaning.'
     ],
   },
 ];
@@ -34,20 +35,29 @@ export const technicalSkillsData = [
   {
     mainTitle: 'Libraries and Frameworks',
     extraInfo: [
-      'Node.js, React.js, Vue.js, Express.js, Remix, Jest.js, Moq, .NET Core.'
+      'Node.js, React.js, Vue.js, Express.js, Remix, Jest.js, Moq, .NET Core – experience gained through co-op work.',
+      'CUDA C++ – experience gained through coursework.'
     ]
   },
   {
     mainTitle: 'Tools',
     extraInfo: [
-      'Harness, Splunk, LaunchDarkly, Jira.'
+      'Git, Harness, LaunchDarkly, Atlassian products: Jira, Confluence, Bitbucket, Bamboo.'
     ]
   },
   {
     mainTitle: 'Software',
     extraInfo: [
       'Knowledgeable with various Microsoft products: Word, Excel, Outlook, and Teams.',
-      'Git, VS Code, Postman, Beekeeper Studio.'
+      'VS Code, Postman, Beekeeper Studio.'
+    ]
+  },
+  {
+    mainTitle: 'Miscellaneous',
+    extraInfo: [
+      'Strong written and verbal communication skills in English.',
+      'Extensive experience in problem-solving, analytical reasoning, and attention to detail.',
+      'Personable and collaborative team player.'
     ]
   }
 ]
@@ -59,7 +69,9 @@ export const workExperienceData = [
     startDate: 'May 2024 to ',
     endDate: 'August 2024',
     extraInfo: [
-      'Contributed to an ongoing plan to implement a new Single Sign-On (SSO) feature and web application for Payworks\' clients. Worked on developing new user interface components, fixing bugs and applying qualify-of-life fixes as per project management feedback. Developed a new backend service to impose a rate limit on one-time two-factor authentication codes. Helped maintain older code for services still in use linked with newer, modernized interfaces and services. As part of an ongoing initiative, wrote new unit test suites for various backend services to improve testing code coverage as well as to ensure reliability and maintainability as the company continues to grow in scale. Demonstrated various features that were implemented in two different sprints to the entire development team at bi-weekly sprint reviews.'
+      'Contributed to an ongoing plan to implement a new Single Sign-On (SSO) feature and web application for Payworks’ clients. Worked on developing new user interface components, fixing bugs and applying quality-of-life fixes based on feedback from the project management team.',
+      'Strengthened system security and reliability by developing a backend service to enforce rate limits on one-time two-factor authentication codes. Maintained legacy systems integrated with modern interfaces, ensuring seamless transitions and continued functionality. Improved code quality and scalability by creating unit test suites for various backend services, increasing test coverage, and enhancing maintainability.',
+      'Demonstrated various features that were implemented in two different sprints to the entire development team at bi-weekly sprint reviews.'
     ]
   },
   {
@@ -68,7 +80,9 @@ export const workExperienceData = [
     startDate: 'September 2023 to ',
     endDate: 'December 2023',
     extraInfo: [
-      'Developed a new internal tool with two senior software developers to help provide account managers with a quicker and more efficient workflow when onboarding new partners to Priceline\'s private label, as well as when providing support to current partners. Worked on creating user interface components, API endpoints, and connecting both to power different features of the tool when ready. As part of the project, presented two demonstrations to highlight development progress at sprint reviews, as well as receiving ongoing feedback from account managers testing the tool as part of the agile process.'
+      'Streamlined partner onboarding and support processes by collaborating with senior developers to create an internal tool for account managers, enhancing workflow efficiency for Priceline’s private label operations.',
+      'Built and integrated core functionalities by developing user interface components and API endpoints, ensuring seamless connectivity to power various tool features.',
+      'As part of the project, presented two demonstrations to highlight development progress at sprint reviews, as well as receiving ongoing feedback from account managers testing the tool as part of the agile process.'
     ]
   },
   {
@@ -87,8 +101,9 @@ export const workExperienceData = [
     startDate: 'July 2016 to ',
     endDate: 'December 2022',
     extraInfo: [
-      'Verified claims made for income deductions and non-refundable tax credits through a yearly review program of randomly selected Canadian taxpayers. Verification was done by thorough analysis of documents received from taxpayers selected by the review program.',
-      'Consistently achieved or exceeded the expected case processing rate of 2.56 cases per hour, based on a yearly work performance review.'
+      'Ensured compliance and accuracy of claims made for income deductions and non-refundable tax credits through a yearly review program with randomly selected Canadians.',
+      'Provided help on the flow of documents (both physical and digital copies) being received from taxpayers and other departments that were to be sorted by predefined categories.',
+      'Communicated over a national phone line to answer questions from Canadian taxpayers regarding the review of their tax return.'
     ]
   }
 ]
